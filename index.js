@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/html');
     res.write('<h1 style="color: red">Hello World!</h1>');
-    res.write('<p>I wonder what else we can send...</p>');
+    res.write('<p>I  kind of wonder what else we can send...</p>');
     res.end();
 });
 
